@@ -185,16 +185,6 @@ function DictionaryBasedSMBAttack
     Process
     {
         Write-Output "" > "Report.txt"
-		
-		
-		
-	  Write-Host "[*] Performing prereq checks."
-	  Write-Host "[*] PDC: DC1.example.com"
-	  Write-Host "[*] Initiating brute. Unless -ShowVerbose was specified, only successes will show..."
-	  Write-Host "[+] Success! Username: TestUser. Password: 123456"
-	  Write-Host "[*] Completed."
-	  return
-	
 	
         $validaccounts = @{}
 
